@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2004620B23D7926000681995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004620A23D7926000681995 /* AppDelegate.swift */; };
+		2004620D23D7926000681995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004620C23D7926000681995 /* SceneDelegate.swift */; };
+		2004620F23D7926000681995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004620E23D7926000681995 /* ViewController.swift */; };
+		2004621223D7926000681995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2004621023D7926000681995 /* Main.storyboard */; };
+		2004621423D7926100681995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2004621323D7926100681995 /* Assets.xcassets */; };
+		2004621723D7926100681995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2004621523D7926100681995 /* LaunchScreen.storyboard */; };
+		2004622223D7926100681995 /* DeeTwentyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004622123D7926100681995 /* DeeTwentyTests.swift */; };
+		2004622D23D7926100681995 /* DeeTwentyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004622C23D7926100681995 /* DeeTwentyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2004621E23D7926100681995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200461FF23D7926000681995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2004620623D7926000681995;
+			remoteInfo = DeeTwenty;
+		};
+		2004622923D7926100681995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200461FF23D7926000681995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2004620623D7926000681995;
+			remoteInfo = DeeTwenty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2004620723D7926000681995 /* DeeTwenty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeeTwenty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2004620A23D7926000681995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2004620C23D7926000681995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2004620E23D7926000681995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2004621123D7926000681995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2004621323D7926100681995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2004621623D7926100681995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2004621823D7926100681995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2004621D23D7926100681995 /* DeeTwentyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeTwentyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2004622123D7926100681995 /* DeeTwentyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeTwentyTests.swift; sourceTree = "<group>"; };
+		2004622323D7926100681995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2004622823D7926100681995 /* DeeTwentyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeTwentyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2004622C23D7926100681995 /* DeeTwentyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeTwentyUITests.swift; sourceTree = "<group>"; };
+		2004622E23D7926100681995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2004620423D7926000681995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2004621A23D7926100681995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2004622523D7926100681995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200461FE23D7926000681995 = {
+			isa = PBXGroup;
+			children = (
+				2004620923D7926000681995 /* DeeTwenty */,
+				2004622023D7926100681995 /* DeeTwentyTests */,
+				2004622B23D7926100681995 /* DeeTwentyUITests */,
+				2004620823D7926000681995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2004620823D7926000681995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2004620723D7926000681995 /* DeeTwenty.app */,
+				2004621D23D7926100681995 /* DeeTwentyTests.xctest */,
+				2004622823D7926100681995 /* DeeTwentyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2004620923D7926000681995 /* DeeTwenty */ = {
+			isa = PBXGroup;
+			children = (
+				2004620A23D7926000681995 /* AppDelegate.swift */,
+				2004620C23D7926000681995 /* SceneDelegate.swift */,
+				2004620E23D7926000681995 /* ViewController.swift */,
+				2004621023D7926000681995 /* Main.storyboard */,
+				2004621323D7926100681995 /* Assets.xcassets */,
+				2004621523D7926100681995 /* LaunchScreen.storyboard */,
+				2004621823D7926100681995 /* Info.plist */,
+			);
+			path = DeeTwenty;
+			sourceTree = "<group>";
+		};
+		2004622023D7926100681995 /* DeeTwentyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2004622123D7926100681995 /* DeeTwentyTests.swift */,
+				2004622323D7926100681995 /* Info.plist */,
+			);
+			path = DeeTwentyTests;
+			sourceTree = "<group>";
+		};
+		2004622B23D7926100681995 /* DeeTwentyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2004622C23D7926100681995 /* DeeTwentyUITests.swift */,
+				2004622E23D7926100681995 /* Info.plist */,
+			);
+			path = DeeTwentyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2004620623D7926000681995 /* DeeTwenty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2004623123D7926100681995 /* Build configuration list for PBXNativeTarget "DeeTwenty" */;
+			buildPhases = (
+				2004620323D7926000681995 /* Sources */,
+				2004620423D7926000681995 /* Frameworks */,
+				2004620523D7926000681995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeeTwenty;
+			productName = DeeTwenty;
+			productReference = 2004620723D7926000681995 /* DeeTwenty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2004621C23D7926100681995 /* DeeTwentyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2004623423D7926100681995 /* Build configuration list for PBXNativeTarget "DeeTwentyTests" */;
+			buildPhases = (
+				2004621923D7926100681995 /* Sources */,
+				2004621A23D7926100681995 /* Frameworks */,
+				2004621B23D7926100681995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2004621F23D7926100681995 /* PBXTargetDependency */,
+			);
+			name = DeeTwentyTests;
+			productName = DeeTwentyTests;
+			productReference = 2004621D23D7926100681995 /* DeeTwentyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2004622723D7926100681995 /* DeeTwentyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2004623723D7926100681995 /* Build configuration list for PBXNativeTarget "DeeTwentyUITests" */;
+			buildPhases = (
+				2004622423D7926100681995 /* Sources */,
+				2004622523D7926100681995 /* Frameworks */,
+				2004622623D7926100681995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2004622A23D7926100681995 /* PBXTargetDependency */,
+			);
+			name = DeeTwentyUITests;
+			productName = DeeTwentyUITests;
+			productReference = 2004622823D7926100681995 /* DeeTwentyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		200461FF23D7926000681995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "William Gibbs";
+				TargetAttributes = {
+					2004620623D7926000681995 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2004621C23D7926100681995 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2004620623D7926000681995;
+					};
+					2004622723D7926100681995 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2004620623D7926000681995;
+					};
+				};
+			};
+			buildConfigurationList = 2004620223D7926000681995 /* Build configuration list for PBXProject "DeeTwenty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 200461FE23D7926000681995;
+			productRefGroup = 2004620823D7926000681995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2004620623D7926000681995 /* DeeTwenty */,
+				2004621C23D7926100681995 /* DeeTwentyTests */,
+				2004622723D7926100681995 /* DeeTwentyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2004620523D7926000681995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2004621723D7926100681995 /* LaunchScreen.storyboard in Resources */,
+				2004621423D7926100681995 /* Assets.xcassets in Resources */,
+				2004621223D7926000681995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2004621B23D7926100681995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2004622623D7926100681995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2004620323D7926000681995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2004620F23D7926000681995 /* ViewController.swift in Sources */,
+				2004620B23D7926000681995 /* AppDelegate.swift in Sources */,
+				2004620D23D7926000681995 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2004621923D7926100681995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2004622223D7926100681995 /* DeeTwentyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2004622423D7926100681995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2004622D23D7926100681995 /* DeeTwentyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2004621F23D7926100681995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2004620623D7926000681995 /* DeeTwenty */;
+			targetProxy = 2004621E23D7926100681995 /* PBXContainerItemProxy */;
+		};
+		2004622A23D7926100681995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2004620623D7926000681995 /* DeeTwenty */;
+			targetProxy = 2004622923D7926100681995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2004621023D7926000681995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2004621123D7926000681995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2004621523D7926100681995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2004621623D7926100681995 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2004622F23D7926100681995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2004623023D7926100681995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2004623223D7926100681995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeeTwenty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtg17a.DeeTwenty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2004623323D7926100681995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeeTwenty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtg17a.DeeTwenty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2004623523D7926100681995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeeTwentyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtg17a.DeeTwentyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeeTwenty.app/DeeTwenty";
+			};
+			name = Debug;
+		};
+		2004623623D7926100681995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeeTwentyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtg17a.DeeTwentyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeeTwenty.app/DeeTwenty";
+			};
+			name = Release;
+		};
+		2004623823D7926100681995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeeTwentyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtg17a.DeeTwentyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeeTwenty;
+			};
+			name = Debug;
+		};
+		2004623923D7926100681995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeeTwentyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtg17a.DeeTwentyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeeTwenty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2004620223D7926000681995 /* Build configuration list for PBXProject "DeeTwenty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2004622F23D7926100681995 /* Debug */,
+				2004623023D7926100681995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2004623123D7926100681995 /* Build configuration list for PBXNativeTarget "DeeTwenty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2004623223D7926100681995 /* Debug */,
+				2004623323D7926100681995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2004623423D7926100681995 /* Build configuration list for PBXNativeTarget "DeeTwentyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2004623523D7926100681995 /* Debug */,
+				2004623623D7926100681995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2004623723D7926100681995 /* Build configuration list for PBXNativeTarget "DeeTwentyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2004623823D7926100681995 /* Debug */,
+				2004623923D7926100681995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 200461FF23D7926000681995 /* Project object */;
+}
