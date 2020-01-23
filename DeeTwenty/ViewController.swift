@@ -7,14 +7,30 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    @IBOutlet weak var diceImageiew: UIImageView!
+    @IBOutlet weak var criticalLabel: UILabel!
+    
+    var rollSound: AVAudioPlayer
+    var failSound: AVAudioPlayer
+    var critSound: AVAudioPlayer
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    func rollDice()
+    {
+        let roll = Int.random(in: 1...20)
+        let imageName = "d\(roll)"
+        
+        
+    }
 }
 
